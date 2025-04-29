@@ -1,0 +1,27 @@
+.percentview {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  border: 2px solid #ccc;
+  border-radius: 16px;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+.percentview p {
+  margin: 0;
+  font-size: 1.5rem;
+}
+.percentview:hover {
+  background-color: #f0f0f0;
+  color: black;
+}
+
+.bar {
+  width: 100%;
+  height: 20px;
+  background-color: #e0e0e0;
+  border: 1px solid black;
+}

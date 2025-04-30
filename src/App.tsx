@@ -13,24 +13,22 @@ import ViewBox from "./components/PercentView";
 // };
 
 function App() {
-  let num: number = 50;
-
   return (
     <>
       <ViewBox
         value={20}
         max={100}
-        makeColor={(p) => `hsl(0, 100%, ${p * 100}%)`}
+        makeColor={(p) => `hsl(0, 100%, ${100 - p * 100}%)`}
       />
       <ViewBox
         value={50}
         max={100}
-        makeColor={(p) => `hsl(120, 100%, ${p * 100}%)`}
+        makeColor={(p) => `hsl(120, 100%, ${100 - p * 100}%)`}
       />
       <ViewBox
         value={80}
         max={100}
-        makeColor={(p) => `hsl(240, 100%, ${p * 100}%)`}
+        makeColor={(p) => `hsl(240, 100%, ${100 - p * 100}%)`}
       />
     </>
   );

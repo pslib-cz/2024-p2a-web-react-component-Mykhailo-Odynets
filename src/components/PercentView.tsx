@@ -7,7 +7,7 @@ type PercentViewType = {
   makeColor: (percent: number) => string;
 };
 
-const PercentView: FC<PercentViewType> = ({ max, value, makeColor, ...rest }) => {
+const PercentView: FC<PercentViewType> = ({ max, value, makeColor }) => {
   return (
     <div className={style.percentview}>
       <p>{value / max * 100}%</p>

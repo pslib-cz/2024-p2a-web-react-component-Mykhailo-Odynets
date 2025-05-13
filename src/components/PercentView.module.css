@@ -8,6 +8,7 @@
   border-radius: 16px;
   padding: 1em;
   margin-bottom: 1em;
+  transition: all 0.3s;
 }
 .percentview p {
   margin: 0;
